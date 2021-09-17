@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private new Rigidbody2D rigidbody;
 
     private Animator animator;
-    private const float moveAnimationThreshold = 0.005f;
+    private const float moveAnimationThreshold = 0.05f;
 
     private void Awake() {
         rigidbody = GetComponent<Rigidbody2D>();
